@@ -1,0 +1,19 @@
+// Variables
+$primary-color: #4a608c;
+$secondary-color: #324359;
+$accent-blue: #7ea5d9;
+$accent-green: #52d9b3;
+
+// Navbar
+.navbar {
+	background-color: $primary-color;
+	color: #fff;
+	font-weight: bold;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	font-size: 1.6rem;
+	padding: 0 1rem;
+}
+
+// User

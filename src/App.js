@@ -1,8 +1,17 @@
-import React from "react";
+import React, { Component } from "react";
+import Navbar from "./components/Navbar";
+import UserItem from "./components/users/UserItem";
 import "./App.css";
 
-function App() {
-	return <div className="App"></div>;
+class App extends Component {
+	render() {
+		return (
+			<div className="">
+				<Navbar />
+				<UserItem />
+			</div>
+		);
+	}
 }
 
 export default App;
